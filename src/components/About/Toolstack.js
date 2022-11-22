@@ -6,6 +6,8 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiWebstorm,
+  SiOpenapiinitiative
 } from "react-icons/si";
 
 function Toolstack() {
@@ -18,7 +20,13 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
+        <SiWebstorm />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
         <SiPostman />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiOpenapiinitiative />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVercel />

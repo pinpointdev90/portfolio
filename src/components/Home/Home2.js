@@ -19,37 +19,25 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+              I am a creative senior web developer having about 6 years of experience with the full-stack project. 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I have deep knowledge and rich experience in
               <i>
-                <b className="purple"> C++, Javascript and Python. </b>
+                <b className="purple"> MERN, MEAN, MEVN, Laravel, Ruby on Rails, web3.js, Solidity and WordPress, and Shopify. </b>
+              </i>
+              <br />
+              And also, have confidence in web design such as landing pages from Figma, and so on. 
+              <br />
+              Especially I am familiar with 
+              <i>
+                <b className="purple"> Github, and Gitlab. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Deep Learning and Natural Launguage Processing.
-                </b>
-              </i>
+              My job is to build your website so that it is functional and user-friendly but at the same time attractive.
               <br />
-              <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              
+              Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. 
             </p>
           </Col>
           <Col md={4} className="myAvtar">
