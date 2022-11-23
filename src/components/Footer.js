@@ -17,7 +17,7 @@ function Footer() {
           <h3>Designed and Developed by Pin Point Dev</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} SB</h3>
+          <h3>Copyright © {year} PPD 90</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
