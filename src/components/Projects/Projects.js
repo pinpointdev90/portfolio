@@ -6,8 +6,9 @@ import leaf from "../../Assets/Projects/leaf.png";
 import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+// import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import DesignOfEducation from "../../Assets/Projects/design.png";
 
 function Projects() {
   return (
@@ -31,15 +32,16 @@ function Projects() {
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
+          
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={DesignOfEducation}
               isBlog={false}
-              title="bits-of-code"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/pinpointdev90/bits-of-code"
-              demoLink="https://github.com/pinpointdev90/bits-of-code"
+              title="Designing the future of education"
+              description="I worked as the front end developer on Smart Sparrow’s Dev Team. We built the platform, focusing on developing UI for users."
+              ghLink="https://pinpointdev90-portfolio.netlify.app/project"
+              demoLink="https://www.smartsparrow.com/"
             />
           </Col>
 
@@ -67,6 +69,17 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
+              imgPath={bitsOfCode}
+              isBlog={false}
+              title="bits-of-code"
+              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              ghLink="https://github.com/pinpointdev90/bits-of-code"
+              demoLink="https://github.com/pinpointdev90/bits-of-code"
+            />
+          </Col>
+
+          {/* <Col md={4} className="project-card">
+            <ProjectCard
               imgPath={suicide}
               isBlog={false}
               title="Ai For Social Good"
@@ -74,7 +87,7 @@ function Projects() {
               ghLink="https://github.com/pinpointdev90/AI_For_Social_Good"
               // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
             />
-          </Col>
+          </Col> */}
 
           <Col md={4} className="project-card">
             <ProjectCard
